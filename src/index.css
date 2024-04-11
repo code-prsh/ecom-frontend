@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/*body{
+  background: url('https://t3.ftcdn.net/jpg/03/23/17/64/360_F_323176425_X3MPyZZ6Qqe6GRnUgjcfkeihBfiWkuH8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}*/
+
+
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  background: #F2AF13;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px #F2AF13;
+  --webkit-box-shadow: 0 8px 6px -6px #F2AF13;
+  border-bottom: 0 solid #F2AF13 !important;
+}
+
+.nav-link{
+  font-weight: 300 !important;
+  color: #F2AF13;
+
+}
+
+.active {
+  border-bottom: 2px solid #F2AF13;
+  color: orange;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 3px;
+  color: #F2AF13;
+}
+
+.footer{
+  height: 700px;
+
+  color: white;
+  padding: 30px;
+  background: #F2AF13;
+  background: -webkit-linear-gradient(to right,#F2AF13,#F2AF13);
+  background: linear-gradient(to right,#FFFF33,#F2AF13);
+  background-image: url(https://img.freepik.com/free-vector/indian-ethnic-people-cartoons-city_18591-52440.jpg?w=740&t=st=1703322108~exp=1703322708~hmac=18c39abe1d4c95e5643508976225fff015199e9c795a48de9e61a9f3fceeba87);
+}
+
+.footer a{
+  text-decoration: none;
+  color: #F2AF13;
+  padding: 20px;
+  transition: all ease 400ms;
+}
+
+.footer a:hover{
+  color: #FFFF33;
+ 
+
+  border-bottom: 1px solid #ffefba;
+  transition: all ease 400ms;
+}
+
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.heading{
+  color: orange;
+}
+
+.searchbtn{
+  color: white;
+  background: #F2AF13;
+}
+
+.btn{
+  color: white;
+   background-color: #F2AF13;
+   border: 0px;
+}
+
+.btn:hover{
+  margin-bottom: 2px;
+  color: white;
+  background-color: #FFFF33;
+  border: 0px;
+}
+
+.list-group-item{
+  color:white;
+  background-color: #F2AF13;
+}
+
+.list-group-item:hover{
+  color:#F2AF13;
+  background-color: white;
+}
+
+.list-group-item.active{
+  color:#F2AF13;
+  background-color: white;
+  border: none;
+}
+
+h1,h2,h3,h5,p{
+  color:#F2AF13;
+}
+
+h4{
+  color: #F2AF13;
+}
+
+.navlink{
+  color:#F2AF13;
+}
+
+.navlink:hover{
+  color: white;
+  background: #F2AF13;
+}
+
+.conhead{
+  background-color: #F2AF13;
+}
+
+.cat-btn {
+  width: 200px;
+  padding: 40px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #FFFF33;
+  color: white;
+}
+
+.cat-img{
+  height: 450px;
+  width: 1600px;
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-flat-gandhi-jayanti-background_23-2149120553.jpg?w=740&t=st=1703322712~exp=1703323312~hmac=b2b57b90763086e6628ae109e23add5921da54d883eccdaa2fd078246ccc9ac7);
+}
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #F2AF13 !important;
+  color: white;
+  padding: 20px 0px;
+}

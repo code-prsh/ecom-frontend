@@ -1,0 +1,69 @@
+/* ===================================
+========= register page  */
+.form-container {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/free-vector/indian-set-temples-architecture_25030-39388.jpg?w=740&t=st=1703321732~exp=1703322332~hmac=0b7660a94d7d48435f2fc0550ae1db76728251d688c1f9d0d353012739a6f243);
+  }
+  
+  .form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+
+  
+  .form-container form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+  }
+  
+  .form-container form button {
+    border-radius: 0.3;
+    background-color: #F2AF13;
+    color: white;
+    width: 250px;
+  }
+  
+  .form-container form button:hover {
+    border: 1px solid black;
+    background: #FFFF33; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #F2AF13,
+      #FFFF33
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #F2AF13,
+      #FFFF33
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .forgot-btn {
+    align-items: center;
+    background-color: #434343a4 !important;
+    border: 0 !important;
+  }
+  
+  .forgot-btn:hover {
+    color: white !important;
+  }
+
+  .reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
